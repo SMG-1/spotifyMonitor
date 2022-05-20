@@ -8,6 +8,7 @@ CREATE TABLE spotimonitor.artist(
 -- could be normalized into track & track-artist
 CREATE TABLE spotimonitor.track(
     id VARCHAR(50) PRIMARY KEY,
+    id_artist VARCHAR(50) REFERENCES spotimonitor.artist(id)
     danceability NUMERIC,
     energy NUMERIC,
     track_key INTEGER,
@@ -20,7 +21,6 @@ CREATE TABLE spotimonitor.track(
     valence NUMERIC,
     tempo NUMERIC,
     duration_ms INTEGER,
-    id_artist VARCHAR(50) REFERENCES spotimonitor.artist(id)
 );
 
 CREATE TABLE spotimonitor.top_tracks (
@@ -31,14 +31,15 @@ CREATE TABLE spotimonitor.top_tracks (
 );
 
 CREATE TABLE spotimonitor.top_artists(
-    id VARCHAR(50) REFERENCES spotimonitor.artist,
+    id VARCHAR(50) REFERENCES spotimonitor.artist(id),
     date_added TIMESTAMP not null default CURRENT_TIMESTAMP,
-    popularity INT
+    popularity INT,
+    time_range VARCHAR(20)
 );
 
 CREATE TABLE spotimonitor.track_artist(
-    track_id VARCHAR(50),
-    artist_id VARCHAR(50)
+    track_id VARCHAR(50) REFERENCES spotimonitor.track(id),
+    artist_id VARCHAR(50) REFERENCES spotimonitor.artist(id)
 );
 
 -- CREATE TABLE spotimonitor.artist(
