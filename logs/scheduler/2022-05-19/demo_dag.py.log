@@ -1,0 +1,868 @@
+[2022-05-19 00:48:00,683] {scheduler_job.py:182} INFO - Started process (PID=273) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:48:00,686] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:48:00,688] {logging_mixin.py:104} INFO - [2022-05-19 00:48:00,688] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:48:00,709] {logging_mixin.py:104} INFO - [2022-05-19 00:48:00,708] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 42
+    "time_range": 'short_term'
+               ^
+SyntaxError: invalid syntax
+[2022-05-19 00:48:00,749] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:48:00,810] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.129 seconds
+[2022-05-19 00:48:30,882] {scheduler_job.py:182} INFO - Started process (PID=335) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:48:30,882] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:48:30,883] {logging_mixin.py:104} INFO - [2022-05-19 00:48:30,883] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:48:30,891] {logging_mixin.py:104} INFO - [2022-05-19 00:48:30,891] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 42
+    "time_range": 'short_term'
+               ^
+SyntaxError: invalid syntax
+[2022-05-19 00:48:30,893] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:48:30,904] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.024 seconds
+[2022-05-19 00:49:00,987] {scheduler_job.py:182} INFO - Started process (PID=382) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:49:00,988] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:49:00,988] {logging_mixin.py:104} INFO - [2022-05-19 00:49:00,988] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:49:01,000] {logging_mixin.py:104} INFO - [2022-05-19 00:49:01,000] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 42
+    "time_range": 'short_term'
+               ^
+SyntaxError: invalid syntax
+[2022-05-19 00:49:01,003] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:49:01,034] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.048 seconds
+[2022-05-19 00:49:31,079] {scheduler_job.py:182} INFO - Started process (PID=451) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:49:31,079] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:49:31,080] {logging_mixin.py:104} INFO - [2022-05-19 00:49:31,080] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:49:31,091] {logging_mixin.py:104} INFO - [2022-05-19 00:49:31,091] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 42
+    "time_range": 'short_term'
+               ^
+SyntaxError: invalid syntax
+[2022-05-19 00:49:31,094] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:49:31,113] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.036 seconds
+[2022-05-19 00:50:01,188] {scheduler_job.py:182} INFO - Started process (PID=509) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:50:01,189] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:50:01,189] {logging_mixin.py:104} INFO - [2022-05-19 00:50:01,189] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:50:01,203] {logging_mixin.py:104} INFO - [2022-05-19 00:50:01,202] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 42
+    "time_range": 'short_term'
+               ^
+SyntaxError: invalid syntax
+[2022-05-19 00:50:01,208] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:50:01,260] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.074 seconds
+[2022-05-19 00:50:31,291] {scheduler_job.py:182} INFO - Started process (PID=567) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:50:31,292] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:50:31,293] {logging_mixin.py:104} INFO - [2022-05-19 00:50:31,293] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:50:31,346] {logging_mixin.py:104} INFO - [2022-05-19 00:50:31,344] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from src.pipeline import top_tracks_to_df, top_artists_to_df
+ModuleNotFoundError: No module named 'src'
+[2022-05-19 00:50:31,350] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:50:31,402] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.113 seconds
+[2022-05-19 00:51:17,789] {scheduler_job.py:182} INFO - Started process (PID=216) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:51:17,790] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:51:17,790] {logging_mixin.py:104} INFO - [2022-05-19 00:51:17,790] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:51:17,802] {logging_mixin.py:104} INFO - [2022-05-19 00:51:17,800] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from src.pipeline import top_tracks_to_df, top_artists_to_df
+ModuleNotFoundError: No module named 'src'
+[2022-05-19 00:51:17,804] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:51:17,817] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.029 seconds
+[2022-05-19 00:51:47,915] {scheduler_job.py:182} INFO - Started process (PID=263) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:51:47,916] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:51:47,916] {logging_mixin.py:104} INFO - [2022-05-19 00:51:47,916] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:51:47,929] {logging_mixin.py:104} INFO - [2022-05-19 00:51:47,927] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from src.pipeline import top_tracks_to_df, top_artists_to_df
+ModuleNotFoundError: No module named 'src'
+[2022-05-19 00:51:47,932] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:51:47,946] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.034 seconds
+[2022-05-19 00:52:18,016] {scheduler_job.py:182} INFO - Started process (PID=333) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:52:18,017] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:52:18,017] {logging_mixin.py:104} INFO - [2022-05-19 00:52:18,017] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:52:18,028] {logging_mixin.py:104} INFO - [2022-05-19 00:52:18,026] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from src.pipeline import top_tracks_to_df, top_artists_to_df
+ModuleNotFoundError: No module named 'src'
+[2022-05-19 00:52:18,031] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:52:18,042] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.028 seconds
+[2022-05-19 00:53:11,552] {scheduler_job.py:182} INFO - Started process (PID=216) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:53:11,553] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:53:11,554] {logging_mixin.py:104} INFO - [2022-05-19 00:53:11,554] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:53:11,595] {logging_mixin.py:104} INFO - [2022-05-19 00:53:11,589] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:53:11,598] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:53:11,657] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.108 seconds
+[2022-05-19 00:53:41,730] {scheduler_job.py:182} INFO - Started process (PID=264) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:53:41,731] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:53:41,732] {logging_mixin.py:104} INFO - [2022-05-19 00:53:41,732] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:53:41,752] {logging_mixin.py:104} INFO - [2022-05-19 00:53:41,747] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:53:41,756] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:53:41,803] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.074 seconds
+[2022-05-19 00:54:11,875] {scheduler_job.py:182} INFO - Started process (PID=332) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:54:11,876] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:54:11,877] {logging_mixin.py:104} INFO - [2022-05-19 00:54:11,877] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:54:11,893] {logging_mixin.py:104} INFO - [2022-05-19 00:54:11,889] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:54:11,897] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:54:11,946] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.072 seconds
+[2022-05-19 00:54:41,971] {scheduler_job.py:182} INFO - Started process (PID=379) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:54:41,971] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:54:41,972] {logging_mixin.py:104} INFO - [2022-05-19 00:54:41,972] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:54:41,993] {logging_mixin.py:104} INFO - [2022-05-19 00:54:41,988] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:54:41,997] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:54:42,025] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.057 seconds
+[2022-05-19 00:55:12,115] {scheduler_job.py:182} INFO - Started process (PID=447) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:55:12,116] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:55:12,116] {logging_mixin.py:104} INFO - [2022-05-19 00:55:12,116] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:55:12,136] {logging_mixin.py:104} INFO - [2022-05-19 00:55:12,131] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:55:12,139] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:55:12,169] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.056 seconds
+[2022-05-19 00:55:42,209] {scheduler_job.py:182} INFO - Started process (PID=494) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:55:42,210] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:55:42,210] {logging_mixin.py:104} INFO - [2022-05-19 00:55:42,210] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:55:42,233] {logging_mixin.py:104} INFO - [2022-05-19 00:55:42,228] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:55:42,238] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:55:42,250] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.044 seconds
+[2022-05-19 00:56:12,322] {scheduler_job.py:182} INFO - Started process (PID=563) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:56:12,322] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:56:12,323] {logging_mixin.py:104} INFO - [2022-05-19 00:56:12,323] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:56:12,344] {logging_mixin.py:104} INFO - [2022-05-19 00:56:12,339] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:56:12,347] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:56:12,394] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.074 seconds
+[2022-05-19 00:56:42,457] {scheduler_job.py:182} INFO - Started process (PID=610) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:56:42,457] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:56:42,458] {logging_mixin.py:104} INFO - [2022-05-19 00:56:42,458] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:56:42,474] {logging_mixin.py:104} INFO - [2022-05-19 00:56:42,471] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:56:42,478] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:56:42,538] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.083 seconds
+[2022-05-19 00:57:12,612] {scheduler_job.py:182} INFO - Started process (PID=679) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:57:12,613] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:57:12,614] {logging_mixin.py:104} INFO - [2022-05-19 00:57:12,613] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:57:12,635] {logging_mixin.py:104} INFO - [2022-05-19 00:57:12,630] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:57:12,639] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:57:12,682] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.073 seconds
+[2022-05-19 00:57:42,749] {scheduler_job.py:182} INFO - Started process (PID=736) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:57:42,750] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:57:42,751] {logging_mixin.py:104} INFO - [2022-05-19 00:57:42,750] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:57:42,770] {logging_mixin.py:104} INFO - [2022-05-19 00:57:42,766] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:57:42,774] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:57:42,824] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.077 seconds
+[2022-05-19 00:58:12,863] {scheduler_job.py:182} INFO - Started process (PID=794) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:58:12,864] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:58:12,865] {logging_mixin.py:104} INFO - [2022-05-19 00:58:12,865] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:58:12,885] {logging_mixin.py:104} INFO - [2022-05-19 00:58:12,880] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:58:12,889] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:58:12,907] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.045 seconds
+[2022-05-19 00:58:42,988] {scheduler_job.py:182} INFO - Started process (PID=862) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:58:42,989] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:58:42,990] {logging_mixin.py:104} INFO - [2022-05-19 00:58:42,989] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:58:43,009] {logging_mixin.py:104} INFO - [2022-05-19 00:58:43,005] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:58:43,013] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:58:43,050] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.064 seconds
+[2022-05-19 00:59:13,087] {scheduler_job.py:182} INFO - Started process (PID=910) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:59:13,088] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:59:13,089] {logging_mixin.py:104} INFO - [2022-05-19 00:59:13,089] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:59:13,111] {logging_mixin.py:104} INFO - [2022-05-19 00:59:13,106] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:59:13,116] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:59:13,136] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.051 seconds
+[2022-05-19 00:59:43,214] {scheduler_job.py:182} INFO - Started process (PID=978) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:59:43,214] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 00:59:43,215] {logging_mixin.py:104} INFO - [2022-05-19 00:59:43,215] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:59:43,237] {logging_mixin.py:104} INFO - [2022-05-19 00:59:43,232] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 00:59:43,241] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 00:59:43,274] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.063 seconds
+[2022-05-19 01:00:13,304] {scheduler_job.py:182} INFO - Started process (PID=1025) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:00:13,304] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 01:00:13,305] {logging_mixin.py:104} INFO - [2022-05-19 01:00:13,305] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:00:13,324] {logging_mixin.py:104} INFO - [2022-05-19 01:00:13,320] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 01:00:13,327] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:00:13,354] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.052 seconds
+[2022-05-19 01:00:43,422] {scheduler_job.py:182} INFO - Started process (PID=1094) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:00:43,423] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 01:00:43,423] {logging_mixin.py:104} INFO - [2022-05-19 01:00:43,423] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:00:43,443] {logging_mixin.py:104} INFO - [2022-05-19 01:00:43,438] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 01:00:43,447] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:00:43,498] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.078 seconds
+[2022-05-19 01:01:13,527] {scheduler_job.py:182} INFO - Started process (PID=1141) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:01:13,528] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 01:01:13,528] {logging_mixin.py:104} INFO - [2022-05-19 01:01:13,528] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:01:13,548] {logging_mixin.py:104} INFO - [2022-05-19 01:01:13,544] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 01:01:13,552] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:01:13,577] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.052 seconds
+[2022-05-19 01:01:43,669] {scheduler_job.py:182} INFO - Started process (PID=1209) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:01:43,670] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 01:01:43,671] {logging_mixin.py:104} INFO - [2022-05-19 01:01:43,671] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:01:43,693] {logging_mixin.py:104} INFO - [2022-05-19 01:01:43,687] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 01:01:43,697] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:01:43,723] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.056 seconds
+[2022-05-19 01:02:13,766] {scheduler_job.py:182} INFO - Started process (PID=1257) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:02:13,767] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 01:02:13,767] {logging_mixin.py:104} INFO - [2022-05-19 01:02:13,767] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:02:13,788] {logging_mixin.py:104} INFO - [2022-05-19 01:02:13,783] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 01:02:13,792] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:02:13,803] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.039 seconds
+[2022-05-19 01:02:43,889] {scheduler_job.py:182} INFO - Started process (PID=1326) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:02:43,889] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 01:02:43,890] {logging_mixin.py:104} INFO - [2022-05-19 01:02:43,890] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:02:43,909] {logging_mixin.py:104} INFO - [2022-05-19 01:02:43,904] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 01:02:43,912] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:02:43,945] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.058 seconds
+[2022-05-19 01:03:14,012] {scheduler_job.py:182} INFO - Started process (PID=1384) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:03:14,013] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 01:03:14,014] {logging_mixin.py:104} INFO - [2022-05-19 01:03:14,014] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:03:14,034] {logging_mixin.py:104} INFO - [2022-05-19 01:03:14,029] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 01:03:14,038] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:03:14,090] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.078 seconds
+[2022-05-19 01:03:44,158] {scheduler_job.py:182} INFO - Started process (PID=1442) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:03:44,159] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 01:03:44,160] {logging_mixin.py:104} INFO - [2022-05-19 01:03:44,160] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:03:44,180] {logging_mixin.py:104} INFO - [2022-05-19 01:03:44,176] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 01:03:44,184] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:03:44,235] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.078 seconds
+[2022-05-19 01:04:14,301] {scheduler_job.py:182} INFO - Started process (PID=1510) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:04:14,302] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 01:04:14,303] {logging_mixin.py:104} INFO - [2022-05-19 01:04:14,303] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:04:14,323] {logging_mixin.py:104} INFO - [2022-05-19 01:04:14,318] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 01:04:14,326] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:04:14,377] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.077 seconds
+[2022-05-19 01:04:44,449] {scheduler_job.py:182} INFO - Started process (PID=1558) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:04:44,450] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 01:04:44,450] {logging_mixin.py:104} INFO - [2022-05-19 01:04:44,450] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:04:44,470] {logging_mixin.py:104} INFO - [2022-05-19 01:04:44,466] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 01:04:44,474] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:04:44,522] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.074 seconds
+[2022-05-19 01:05:14,590] {scheduler_job.py:182} INFO - Started process (PID=1628) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:05:14,591] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 01:05:14,592] {logging_mixin.py:104} INFO - [2022-05-19 01:05:14,592] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:05:14,611] {logging_mixin.py:104} INFO - [2022-05-19 01:05:14,607] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 01:05:14,615] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:05:14,665] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.077 seconds
+[2022-05-19 01:05:44,734] {scheduler_job.py:182} INFO - Started process (PID=1675) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:05:44,735] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 01:05:44,735] {logging_mixin.py:104} INFO - [2022-05-19 01:05:44,735] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:05:44,756] {logging_mixin.py:104} INFO - [2022-05-19 01:05:44,751] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 01:05:44,759] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:05:44,809] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.077 seconds
+[2022-05-19 01:06:14,875] {scheduler_job.py:182} INFO - Started process (PID=1743) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:06:14,876] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 01:06:14,876] {logging_mixin.py:104} INFO - [2022-05-19 01:06:14,876] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:06:14,896] {logging_mixin.py:104} INFO - [2022-05-19 01:06:14,891] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 01:06:14,899] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 01:06:14,953] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.080 seconds
+[2022-05-19 03:01:34,069] {scheduler_job.py:182} INFO - Started process (PID=215) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:01:34,071] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:01:34,071] {logging_mixin.py:104} INFO - [2022-05-19 03:01:34,071] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:01:34,093] {logging_mixin.py:104} INFO - [2022-05-19 03:01:34,087] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 03:01:34,097] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:01:34,138] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.070 seconds
+[2022-05-19 03:02:04,180] {scheduler_job.py:182} INFO - Started process (PID=263) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:02:04,181] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:02:04,181] {logging_mixin.py:104} INFO - [2022-05-19 03:02:04,181] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:02:04,205] {logging_mixin.py:104} INFO - [2022-05-19 03:02:04,200] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 03:02:04,210] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:02:04,221] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.043 seconds
+[2022-05-19 03:02:34,309] {scheduler_job.py:182} INFO - Started process (PID=331) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:02:34,310] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:02:34,311] {logging_mixin.py:104} INFO - [2022-05-19 03:02:34,311] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:02:34,332] {logging_mixin.py:104} INFO - [2022-05-19 03:02:34,327] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 03:02:34,337] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:02:34,361] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.053 seconds
+[2022-05-19 03:03:04,414] {scheduler_job.py:182} INFO - Started process (PID=379) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:03:04,415] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:03:04,416] {logging_mixin.py:104} INFO - [2022-05-19 03:03:04,415] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:03:04,439] {logging_mixin.py:104} INFO - [2022-05-19 03:03:04,434] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo_dag.py", line 4, in <module>
+    from pipeline import top_tracks_to_df, top_artists_to_df
+  File "/opt/airflow/dags/pipeline.py", line 1, in <module>
+    import spotipy
+ModuleNotFoundError: No module named 'spotipy'
+[2022-05-19 03:03:04,443] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:03:04,456] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.045 seconds
+[2022-05-19 03:04:55,846] {processor.py:153} INFO - Started process (PID=229) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:04:55,847] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:04:55,847] {logging_mixin.py:115} INFO - [2022-05-19 03:04:55,847] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:04:57,037] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:04:57,086] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:04:57,102] {logging_mixin.py:115} INFO - [2022-05-19 03:04:57,101] {dagbag.py:412} ERROR - Failed to bag_dag: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 172, in _alphaconv
+    return cls.ALPHACONV[index][key]
+KeyError: '/2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/interval.py", line 173, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 166, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 774, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 717, in _expand
+    t = cls._alphaconv(i, t, expressions)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 175, in _alphaconv
+    "[{0}] is not acceptable".format(" ".join(expressions)))
+croniter.croniter.CroniterNotAlphaError: [/2 * * * *] is not acceptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 405, in _process_modules
+    dag.timetable.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/interval.py", line 175, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: [/2 * * * *] is not acceptable
+[2022-05-19 03:04:57,102] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:04:57,145] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 1.301 seconds
+[2022-05-19 03:05:27,242] {processor.py:153} INFO - Started process (PID=264) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:05:27,243] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:05:27,244] {logging_mixin.py:115} INFO - [2022-05-19 03:05:27,244] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:05:27,618] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:05:27,620] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:05:27,627] {logging_mixin.py:115} INFO - [2022-05-19 03:05:27,626] {dagbag.py:412} ERROR - Failed to bag_dag: /opt/airflow/dags/demo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 172, in _alphaconv
+    return cls.ALPHACONV[index][key]
+KeyError: '/2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/interval.py", line 173, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 166, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 774, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 717, in _expand
+    t = cls._alphaconv(i, t, expressions)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 175, in _alphaconv
+    "[{0}] is not acceptable".format(" ".join(expressions)))
+croniter.croniter.CroniterNotAlphaError: [/2 * * * *] is not acceptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 405, in _process_modules
+    dag.timetable.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/interval.py", line 175, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: [/2 * * * *] is not acceptable
+[2022-05-19 03:05:27,627] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:05:27,641] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.401 seconds
+[2022-05-19 03:05:32,258] {processor.py:153} INFO - Started process (PID=279) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:05:32,258] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:05:32,259] {logging_mixin.py:115} INFO - [2022-05-19 03:05:32,259] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:05:32,625] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:05:32,627] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:05:32,633] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:05:32,732] {logging_mixin.py:115} INFO - [2022-05-19 03:05:32,732] {manager.py:508} INFO - Created Permission View: can read on DAG:user_behaviour
+[2022-05-19 03:05:32,739] {logging_mixin.py:115} INFO - [2022-05-19 03:05:32,739] {manager.py:508} INFO - Created Permission View: can delete on DAG:user_behaviour
+[2022-05-19 03:05:32,745] {logging_mixin.py:115} INFO - [2022-05-19 03:05:32,745] {manager.py:508} INFO - Created Permission View: can edit on DAG:user_behaviour
+[2022-05-19 03:05:32,745] {logging_mixin.py:115} INFO - [2022-05-19 03:05:32,745] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:05:32,752] {logging_mixin.py:115} INFO - [2022-05-19 03:05:32,752] {dag.py:2390} INFO - Creating ORM DAG for user_behaviour
+[2022-05-19 03:05:32,763] {logging_mixin.py:115} INFO - [2022-05-19 03:05:32,763] {dag.py:2919} INFO - Setting next_dagrun for user_behaviour to 2021-05-23T00:00:00+00:00, run_after=2021-05-23T00:02:00+00:00
+[2022-05-19 03:05:32,796] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.540 seconds
+[2022-05-19 03:06:16,101] {processor.py:153} INFO - Started process (PID=191) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:06:16,102] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:06:16,103] {logging_mixin.py:115} INFO - [2022-05-19 03:06:16,103] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:06:16,503] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:06:16,505] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:06:16,513] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:06:16,532] {logging_mixin.py:115} INFO - [2022-05-19 03:06:16,531] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:06:16,550] {logging_mixin.py:115} INFO - [2022-05-19 03:06:16,550] {dag.py:2919} INFO - Setting next_dagrun for user_behaviour to 2021-05-23T00:00:00+00:00, run_after=2021-05-23T00:02:00+00:00
+[2022-05-19 03:06:16,575] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.475 seconds
+[2022-05-19 03:06:46,683] {processor.py:153} INFO - Started process (PID=226) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:06:46,683] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:06:46,684] {logging_mixin.py:115} INFO - [2022-05-19 03:06:46,684] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:06:47,032] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:06:47,035] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:06:47,041] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:06:47,058] {logging_mixin.py:115} INFO - [2022-05-19 03:06:47,058] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:06:47,076] {logging_mixin.py:115} INFO - [2022-05-19 03:06:47,076] {dag.py:2919} INFO - Setting next_dagrun for user_behaviour to 2021-05-23T00:00:00+00:00, run_after=2021-05-23T00:02:00+00:00
+[2022-05-19 03:06:47,100] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.419 seconds
+[2022-05-19 03:07:17,209] {processor.py:153} INFO - Started process (PID=255) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:07:17,209] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:07:17,210] {logging_mixin.py:115} INFO - [2022-05-19 03:07:17,210] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:07:17,555] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:07:17,557] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:07:17,563] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:07:17,579] {logging_mixin.py:115} INFO - [2022-05-19 03:07:17,578] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:07:17,628] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.421 seconds
+[2022-05-19 03:07:47,731] {processor.py:153} INFO - Started process (PID=289) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:07:47,732] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:07:47,733] {logging_mixin.py:115} INFO - [2022-05-19 03:07:47,732] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:07:48,085] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:07:48,087] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:07:48,093] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:07:48,109] {logging_mixin.py:115} INFO - [2022-05-19 03:07:48,109] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:07:48,156] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.427 seconds
+[2022-05-19 03:08:18,259] {processor.py:153} INFO - Started process (PID=326) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:08:18,259] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:08:18,260] {logging_mixin.py:115} INFO - [2022-05-19 03:08:18,260] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:08:18,644] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:08:18,646] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:08:18,658] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:08:18,673] {logging_mixin.py:115} INFO - [2022-05-19 03:08:18,673] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:08:18,749] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.493 seconds
+[2022-05-19 03:08:48,855] {processor.py:153} INFO - Started process (PID=351) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:08:48,856] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:08:48,857] {logging_mixin.py:115} INFO - [2022-05-19 03:08:48,857] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:08:49,182] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:08:49,184] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:08:49,190] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:08:49,205] {logging_mixin.py:115} INFO - [2022-05-19 03:08:49,205] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:08:49,230] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.376 seconds
+[2022-05-19 03:09:19,330] {processor.py:153} INFO - Started process (PID=389) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:09:19,331] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:09:19,331] {logging_mixin.py:115} INFO - [2022-05-19 03:09:19,331] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:09:19,719] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:09:19,721] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:09:19,727] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:09:19,742] {logging_mixin.py:115} INFO - [2022-05-19 03:09:19,742] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:09:19,804] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.476 seconds
+[2022-05-19 03:09:49,902] {processor.py:153} INFO - Started process (PID=424) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:09:49,903] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:09:49,904] {logging_mixin.py:115} INFO - [2022-05-19 03:09:49,903] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:09:50,244] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:09:50,246] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:09:50,253] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:09:50,305] {logging_mixin.py:115} INFO - [2022-05-19 03:09:50,304] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:09:50,337] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.437 seconds
+[2022-05-19 03:10:20,444] {processor.py:153} INFO - Started process (PID=459) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:10:20,444] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:10:20,445] {logging_mixin.py:115} INFO - [2022-05-19 03:10:20,445] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:10:20,781] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:10:20,784] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:10:20,790] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:10:20,807] {logging_mixin.py:115} INFO - [2022-05-19 03:10:20,806] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:10:20,860] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.418 seconds
+[2022-05-19 03:10:50,964] {processor.py:153} INFO - Started process (PID=484) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:10:50,964] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:10:50,965] {logging_mixin.py:115} INFO - [2022-05-19 03:10:50,965] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:10:51,319] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:10:51,321] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:10:51,327] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:10:51,343] {logging_mixin.py:115} INFO - [2022-05-19 03:10:51,343] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:10:51,394] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.432 seconds
+[2022-05-19 03:11:21,496] {processor.py:153} INFO - Started process (PID=519) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:11:21,497] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:11:21,497] {logging_mixin.py:115} INFO - [2022-05-19 03:11:21,497] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:11:21,825] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:11:21,827] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:11:21,833] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:11:21,847] {logging_mixin.py:115} INFO - [2022-05-19 03:11:21,847] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:11:21,916] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.422 seconds
+[2022-05-19 03:12:19,295] {processor.py:153} INFO - Started process (PID=192) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:12:19,296] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:12:19,297] {logging_mixin.py:115} INFO - [2022-05-19 03:12:19,296] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:12:19,721] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:12:19,723] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:12:19,730] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:12:19,745] {logging_mixin.py:115} INFO - [2022-05-19 03:12:19,745] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:12:19,775] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.482 seconds
+[2022-05-19 03:12:49,884] {processor.py:153} INFO - Started process (PID=218) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:12:49,884] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:12:49,884] {logging_mixin.py:115} INFO - [2022-05-19 03:12:49,884] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:12:50,229] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:12:50,231] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:12:50,238] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:12:50,254] {logging_mixin.py:115} INFO - [2022-05-19 03:12:50,254] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:12:50,300] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.418 seconds
+[2022-05-19 03:13:20,413] {processor.py:153} INFO - Started process (PID=251) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:13:20,414] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:13:20,415] {logging_mixin.py:115} INFO - [2022-05-19 03:13:20,415] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:13:20,829] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:13:20,832] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:13:20,838] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:13:20,856] {logging_mixin.py:115} INFO - [2022-05-19 03:13:20,855] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:13:20,893] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.482 seconds
+[2022-05-19 03:13:51,003] {processor.py:153} INFO - Started process (PID=284) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:13:51,003] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:13:51,004] {logging_mixin.py:115} INFO - [2022-05-19 03:13:51,004] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:13:51,342] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:13:51,344] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:13:51,350] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:13:51,364] {logging_mixin.py:115} INFO - [2022-05-19 03:13:51,364] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:13:51,420] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.419 seconds
+[2022-05-19 03:14:21,522] {processor.py:153} INFO - Started process (PID=319) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:14:21,523] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:14:21,523] {logging_mixin.py:115} INFO - [2022-05-19 03:14:21,523] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:14:21,877] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:14:21,879] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:14:21,885] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:14:21,900] {logging_mixin.py:115} INFO - [2022-05-19 03:14:21,900] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:14:21,948] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.429 seconds
+[2022-05-19 03:14:52,047] {processor.py:153} INFO - Started process (PID=344) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:14:52,047] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:14:52,048] {logging_mixin.py:115} INFO - [2022-05-19 03:14:52,048] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:14:52,416] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:14:52,418] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:14:52,424] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:14:52,439] {logging_mixin.py:115} INFO - [2022-05-19 03:14:52,439] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:14:52,476] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.431 seconds
+[2022-05-19 03:15:22,574] {processor.py:153} INFO - Started process (PID=441) to work on /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:15:22,574] {processor.py:641} INFO - Processing file /opt/airflow/dags/demo_dag.py for tasks to queue
+[2022-05-19 03:15:22,575] {logging_mixin.py:115} INFO - [2022-05-19 03:15:22,575] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:15:23,131] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/operators/emr_add_steps_operator.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.operators.emr`.
+[2022-05-19 03:15:23,133] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/contrib/sensors/emr_step_sensor.py:22 DeprecationWarning: This module is deprecated. Please use `airflow.providers.amazon.aws.sensors.emr`.
+[2022-05-19 03:15:23,141] {processor.py:651} INFO - DAG(s) dict_keys(['user_behaviour']) retrieved from /opt/airflow/dags/demo_dag.py
+[2022-05-19 03:15:23,159] {logging_mixin.py:115} INFO - [2022-05-19 03:15:23,158] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-19 03:15:23,198] {processor.py:161} INFO - Processing /opt/airflow/dags/demo_dag.py took 0.627 seconds
